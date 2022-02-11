@@ -1,0 +1,5 @@
+#eddcd9: oatmeal
+#f2ebe9: cream
+#8d997e: olive green
+#264143: dark emerald greenish blue
+#e99f4c: mustard yellow
