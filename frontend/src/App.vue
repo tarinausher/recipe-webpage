@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img id="logo" class="logo" alt="logo" src="./assets/logo.png">
+    <h1>Kitchen Companion</h1>
     <Home />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Home from './views/Home.vue'
 
 export default {
   name: 'App',
@@ -17,17 +17,41 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Roboto, Calibri, Trebuchet;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @font-face {
+  font-family: "Meow Script";
+  src: local("Meow Script"),
+    url(./fonts/Meow_Script/MeowScript-Regular.ttf) format("truetype");
+} */
 
+@font-face {
+  font-family: "Comforter Brush";
+  src: local("Comforter Brush"),
+    url(./fonts/Comforter_Brush/ComforterBrush-Regular.ttf) format("truetype");
 }
 
-#logo {
-  position: fixed; 
-  top: 0;
-  left: 0;
+* {
+  font-family: "Calibri", Trebuchet;
+  color: #183a1d;
+  margin: 0;
+  padding: 0;
 }
+
+/* #app {
+  background-image: url(./assets/...);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+} */
+
+#app h1 {
+  font-family: "Comforter Brush";
+  font-size: 64px;
+  color: #f0a04b;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+
 
 </style>

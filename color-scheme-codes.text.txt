@@ -1,5 +1,5 @@
-#eddcd9: oatmeal
-#f2ebe9: cream
-#8d997e: olive green
-#264143: dark emerald greenish blue
-#e99f4c: mustard yellow
+#f6c453 - pale peach
+#fefbe9 - oatmeal
+#f0a04b - orange
+#183a1d - deep forest green
+#e1eedd - mint
