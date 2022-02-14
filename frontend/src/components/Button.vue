@@ -1,20 +1,19 @@
 <template>
-    <div class="container">
-      <button>{{ msg }}</button>
+    <div class="button-container">
+        <button>
+            <slot/>
+        </button>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'Button',
-  props: {
-    msg: String
-  }
+  name: 'Button'
 }
 </script>
 
 <style>
-.container {
+.button-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

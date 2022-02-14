@@ -1,7 +1,11 @@
 <template>
 <div class="main">
-    <Button msg="Random Recipe"/>
-    <Button msg="Recipe Selector"/>
+    <router-link to="/random-recipe">
+      <Button>Random Recipe</Button>
+    </router-link>
+    <router-link to="/recipe-selector">
+      <Button>Recipe Selector</Button>
+    </router-link>
   </div>
 </template>
 
@@ -18,18 +22,7 @@ export default {
 
 <style scoped>
 .main {
-    text-align: center;
+  text-align: center;
 }
-
-.main h2 {
-  font-size: 36px;
-  color: #183a1d;
-
-}
-
-
-
-
-
 
 </style>
