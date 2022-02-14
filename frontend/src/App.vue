@@ -3,18 +3,17 @@
     <router-link to="/">
     <h1>Kitchen Companion</h1>
     </router-link>
-    <Home />
     <router-view />
   </div>
 </template>
 
 <script>
-import Home from './views/Home.vue'
+// import Home from './views/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    // Home
   }
 }
 </script>
