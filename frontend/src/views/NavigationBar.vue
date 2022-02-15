@@ -7,16 +7,14 @@
     </div>
 
     <div id="nav" class="nav">
-        <router-link to="/login">
-            <h2>Login</h2>
-        </router-link>
-
+    
         <router-link to="/contact">
             <h2>Contact</h2>
         </router-link>
         
         <router-link to="/saved-recipes">
             <h2>Saved Recipes</h2>
+            <!-- if selected and not logged in should take to login -->
         </router-link>
     </div>
 
@@ -46,6 +44,10 @@ export default {
 
 #nav h2 {
   padding-right: 1em;
+}
+
+#nav h2:hover {
+    color: #f0a04b;
 }
 
 .container {

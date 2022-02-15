@@ -8,7 +8,6 @@ A frontend application built in Vue.js utilizing an external API (to be determin
 - Random Recipe
 - Recipe Selector
 - Saved Recipes
-- Login
 - Contact 
 
 ## Pages completed:
