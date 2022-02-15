@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-    <router-link to="/">
-    <h1>Kitchen Companion</h1>
-    </router-link>
+    <NavBar/>
+
     <router-view />
   </div>
 </template>
 
 <script>
-// import Home from './views/Home.vue'
+import NavBar from '@/views/NavigationBar.vue'
 
 export default {
   name: 'App',
   components: {
-    // Home
+    NavBar
   }
 }
 </script>
@@ -25,36 +24,13 @@ export default {
     url(./fonts/Meow_Script/MeowScript-Regular.ttf) format("truetype");
 }
 
-/* @font-face {
-  font-family: "Comforter Brush";
-  src: local("Comforter Brush"),
-    url(./fonts/Comforter_Brush/ComforterBrush-Regular.ttf) format("truetype");
-} */
-
 * {
   font-family: "Calibri", Trebuchet;
   color: #183a1d;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  background-color: #fefbe9;
 }
-
-/* #app {
-  background-image: url(./assets/...);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-} */
-
-#app h1 {
-  font-family: "Meow Script";
-  font-size: 64px;
-  color: #f0a04b;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-
-
 
 </style>

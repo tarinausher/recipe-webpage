@@ -30,7 +30,7 @@ button {
  border-radius: 4px;
  box-shadow: inset 0 0 0 0 #f6c453;
  transition: ease-out 0.3s;
- font-size: 2rem;
+ font-size: 30px;
  outline: none;
 }
 
