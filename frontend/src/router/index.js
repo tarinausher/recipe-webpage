@@ -4,7 +4,8 @@ import Home from '@/views/Home.vue'
 import RandomRecipe from '@/views/RandomRecipe.vue'
 import RecipeSelector from '@/views/RecipeSelector.vue'
 import Contact from '@/views/Contact.vue'
-import SavedRecipes from '@/views/SavedRecipes'
+import SavedRecipes from '@/views/SavedRecipes.vue'
+import ThankYou from '@/views/ThankYou.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
       path: '/saved-recipes',
       name: 'saved-recipes',
       component: SavedRecipes
+    },
+    {
+      path: '/thank-you',
+      name: 'thank-you',
+      component: ThankYou
     }
   ]
   const router = new VueRouter({
